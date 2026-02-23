@@ -240,7 +240,8 @@ const styles = `
   .login-brand { text-align: center; margin-bottom: 32px; }
   .login-logo { width: 56px; height: 56px; border-radius: 14px; background: linear-gradient(135deg,var(--blue),var(--violet)); display: flex; align-items: center; justify-content: center; font-size: 24px; margin: 0 auto 12px; box-shadow: 0 8px 24px rgba(59,130,246,.3); }
   .login-title { font-size: 22px; font-weight: 800; color: var(--text); letter-spacing: -.5px; }
-  .login-sub { font-size: 13px; color: var(--text3); margin-top: 4px; }
+  .login-sub { font-size: 17px; color: var(--text3); margin-top: 4px; }
+
   .form-full { width: 100%; }
   .input-lg { padding: 11px 14px; font-size: 14px; border-radius: 10px; }
   .demo-box { margin-top: 20px; background: var(--surface2); border: 1px solid var(--border); border-radius: 10px; padding: 12px; }
@@ -443,8 +444,9 @@ function LoginPage({ onLogin }) {
       <div className="login-card fade-in">
         <div className="login-brand">
           <div className="login-logo">⚙️</div>
-          <div className="login-title">SteelTrack</div>
+          <div className="login-title">BRM</div>
           <div className="login-sub">Rolling Mill Monitoring System</div>
+
         </div>
         <div className="form-group" style={{ marginBottom:12 }}>
           <label className="form-label">Phone Number</label>
